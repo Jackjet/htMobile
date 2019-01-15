@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="user-scalable=no,width=640,target-densitydpi=device-dpi"> -->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">-->
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <!-- <meta name='apple-itunes-app' content='app-id=1050553275'> -->
+    
+    <meta name="apple-mobile-web-app-title"
+    content="" />
+    <meta name="apple-mobile-web-app-status-bar-style"
+    content="black-translucent" />
+    <meta name="HandheldFriendly" content="true" />
+    
+    <title>安全生产隐患分级及措施方案</title>
+	<script src="/components/jquery-1.4.2.js" type="text/javascript"></script> <!--jquery包-->
+
+    <style>
+        body{
+            margin:0 auto;
+            overflow-x:hidden;
+            font-family:Helvetica,​Arial,​sans-serif,微软雅黑;
+        }
+        .mainTitle{
+            font-size:15px;
+        }
+        .subTitle{
+            font-size:12px;
+        }
+        a{
+            //color: #007AFF;
+            color:white;
+            text-decoration: none;
+        }
+        
+        #mainContent{
+        	width:100%;
+        	border:0px solid red;
+        	min-heigth:300px;
+        	overflow-x:hidden;
+        	//background: url(/images/clubBg.png) no-repeat;
+        	padding-top:10px;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        /*
+         * 智能机浏览器版本信息:
+         *
+         */
+        var browser = {
+            versions: function() {
+                var u = navigator.userAgent, app = navigator.appVersion;
+                return {//移动终端浏览器版本信息 
+                    wechat: u.indexOf('MicroMessenger') > -1,//微信  || u.indexof('NetType') > -1
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    presto: u.indexOf('Presto') > -1, //opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+                    iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+                };
+            }(),
+            language: (navigator.browserLanguage || navigator.language).toLowerCase()
+        }
+    
+        if (browser.versions.android) {
+        }else{
+        	//$("#downHeader").css("display","none");
+        }
+        
+        function stopScrolling( touchEvent ) {   
+            touchEvent.preventDefault();   
+        }  
+
+        function closeBlock(id){
+        	$("#" + id).css("display","none");
+        }
+
+    </script>
+    
+    <style>
+    	 #mainContent table{
+        	text-align:left;
+        	font-size:14px;
+        }
+        td{
+        	padding-top:6px;
+        	padding-bottom:6px;
+        }
+    	.sInfor{
+    		font-size:14px;
+    		color:gray;
+    		line-height:200%;
+    	}
+    	
+    	.title1{
+    		font-size:17px;
+    		font-weight:bold;
+    	}
+    	.title2{
+    		font-size:16px;
+    		font-weight:bold;
+    	}
+    	.title3{
+    		font-size:15px;
+    		line-height:30px;
+    	}
+    	.ruleTitle{
+    		background:#EAEAEA;
+    		width:70px;
+    		margin-left:10px;
+    		padding:4px;
+    		text-align:center;
+    		
+    		/**圆角**/
+			-moz-border-radius: 15px;      /* Gecko browsers */
+		    -webkit-border-radius: 15px;   /* Webkit browsers */
+		    border-radius:15px; 
+    	}
+    	.ruleTitle span{
+    		width:100%;
+    		border:0px solid red;	
+    	}
+    	.ruleContainer{
+    		margin-left:17px;
+    		border-bottom:1px solid lightGray;
+    	}
+    	.redColor{
+    		color:red;
+    	}
+    </style>
+    
+    <div id="mainContent">
+    	
+    	<table align="center" border="0" width="100%" cellspacing=0 cellpadding=0>
+    		<tr>
+    			<td width="22" height="20" align="left">
+    				<div style="background:#D10909;width:80%;height:17px;"></div>
+    			</td>
+    			<td align="left">
+    				<span class="title1">危险等级：<font color=red>Ⅰ级</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>火灾</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>餐饮厨房</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>高</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+	    				<span class="title3">1.及时清理灶台周边油污，随用随清</span><br/>
+	    				<span class="title3">2.长时间离开灶台必须关火关气，防止干烧</span><br/>
+	    				<span class="title3">3.定期清洗油烟管道、进行防火检查</span><br/>
+	    				<span class="title3">4.就近设置消防器材、保证有效</span><br/>
+	    				<span class="title3">5.定期清洗检查厨房自动灭火装置，确保处于正常使用状态</span><br/>
+	    				<span class="title3">6.禁止留置易燃易爆物品</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>焊接作业</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>高</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+	    				<span class="title3">1.必须办理动火许可证、施焊人员具有特殊工种作业证</span><br/>
+	    				<span class="title3">2.现场配齐灭火器材、规范穿戴劳动防护用品</span><br/>
+	    				<span class="title3">3.电焊设备和工具应完好、接地可靠、规范放置</span><br/>
+	    				<span class="title3">4.现场清理，搬离易燃物品，设置防火阻隔设施</span><br/>
+	    				<span class="title3">5.必须专人防护，进行防火检查，及时应急施救</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>煤气管道</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>高</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+	    				<span class="title3">1.定期检测灶台、管道等设施，保证安全有效无泄漏</span><br/>
+	    				<span class="title3">2.加强歇业期间安全检查，专人负责确认气源关闭情况</span><br/>
+	    				<span class="title3">3.设置防泄漏安全警报装置，保证有效运行</span><br/>
+	    				<span class="title3">4.发现泄漏，及时关闭火源气源、规范处置，禁止火种或开关电器</span><br/>
+	    				<span class="title3">5.发现险情，切莫慌乱，有序组织撤离至安全区域，禁止盲目施救</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>公共场所</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>中</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+	    				<span class="title3">1.严格控烟、控制火种、禁吸游烟</span><br/>
+	    				<span class="title3">2.定期检查消防器材、保证有效</span><br/>
+	    				<span class="title3">3.禁止堵塞消防通道，保持畅通</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>客运大厅</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>中</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+	    				<span class="title3">1.进行人员及行李安全检查，禁止携带易燃易爆物品进入</span><br/>
+	    				<span class="title3">2.加强现场秩序维护，劝阻旅客不安全行为</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>仓库机房</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>低</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+	    				<span class="title3">1.禁止携带火种进入、严禁吸烟</span><br/>
+	    				<span class="title3">2.定期进行防火检查，保证消防设施有效</span><br/>
+	    				<span class="title3">3.物品摆放整齐，及时清理杂物</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>办公区域</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>低</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+	    				<span class="title3">1.禁止私自乱接乱拉线路，杜绝使用大功率电器</span><br/>
+	    				<span class="title3">2.禁止超负荷用电、擅自使用电加热设备</span><br/>
+	    				<span class="title3">3.长时间离开，必须关闭用电设备或电源</span><br/>
+	    				<span class="title3">4.禁止留置易燃易爆物品</span><br/>
+	    				
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- ------------------------------------------ -->
+    		<tr>
+    			<td width="22" height="20" align="left">
+    				<div style="background:#ffc000;width:80%;height:17px;"></div>
+    			</td>
+    			<td align="left">
+    				<span class="title1">危险等级：<font color=red>Ⅱ级</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>车辆伤害</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>装卸作业</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>高</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+	    				<span class="title3">1.特制设备必须年审合格，严禁无证从事特种作业，杜绝三违行为或冒险作业</span><br/>
+	    				<span class="title3">2.进入作业现场，必须规范穿戴安全帽、工作鞋等防护用品</span><br/>
+						<span class="title3">3.作业区域必须设置临时警戒设施，禁止无关人员进入、人车分离</span><br/>
+						<span class="title3">4.必须专人监督指挥，落实相关方管理，严格执行安全操作规程</span><br/>
+						<span class="title3">5.禁止进入装卸机械安全作业警示区（3吨叉车尾部周围3米\10吨叉车尾部周围8米）</span><br/>
+						<span class="title3">6.禁止搭乘装卸机械，行驶中应关闭驾驶室门，装载货物视线受阻倒车行驶</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>高处坠落</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>登高作业</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>高</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+						<span class="title3">1.落实相关方资质审核，登高设备必须合格标准，严禁无证从事登高作业</span><br/>
+						<span class="title3">2.必须规范穿戴安全帽、安全绳、防滑鞋等，安全绳必须高挂低用</span><br/>
+						<span class="title3">3.作业区域必须设置临时警戒设施，防止下方无关人员通行或意外撞击</span><br/>
+						<span class="title3">4.2米以上作业，下方必须专人看护，落实相关方管理，杜绝三违行为或强令冒险作业</span><br/>
+						<span class="title3">5.作业前必须落实关键部位及工索具安全检查，保证有效</span><br/>
+						<span class="title3">6.移动脚手架必须具有移动轮锁扣装置，禁止2人以上上架操作</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>其他伤害</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>人员密集</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>高</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+						<span class="title3">1.定时现场安全巡视，加强人员疏导，防止大量人流集结</span><br/>
+						<span class="title3">2.实行分区管理，控制人员出入流量，防止现场人员拥挤踩蹋</span><br/>
+						<span class="title3">3.发生险情，隔离涉险区域，及时疏散人员，加强现场监护</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>淹溺</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>船舶服务</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>中</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+						<span class="title3">2.临江涉水作业，必须规范穿着救生衣，在码头护轮坎上站立或行走</span><br/>
+						<span class="title3">3.船边物料交接，必须规范设置安全网，物料舱口禁止人员上下</span><br/>
+						<span class="title3">4.禁止跨越船舷上下船，人员上下必须设置舷梯及安全网，游艇等上下规范穿着救生衣</span><br/>
+						<span class="title3">5.必须专人现场监管，落实相关方管理，严格执行安全操作规程</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>起重伤害</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>起重作业</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>低</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+						<span class="title3">1.落实相关方资质审核，特制设备必须年审合格，严禁无证从事特种作业</span><br/>
+						<span class="title3">2.必须规范穿戴安全帽、工作鞋等防护用品，涉水作业规范穿着救生衣</span><br/>
+						<span class="title3">3.作业区域必须设置临时警戒设施，禁止无关人员进入</span><br/>
+						<span class="title3">4.作业前必须落实关键部位及工索具安全检查，保证有效</span><br/>
+						<span class="title3">5.必须专人监督指挥，落实相关方管理，制定针对性的组织方案和安全措施</span><br/>
+						<span class="title3">6.严禁超负荷作业，禁止关下、关路有人作业，杜绝三违行为或强令冒险作业</span><br/>
+						<span class="title3">7.起重吊运作业必须遵守“十不吊”规定</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- ------------------------------------------ -->
+    		<tr>
+    			<td width="22" height="20" align="left">
+    				<div style="background:#ffff00;width:80%;height:17px;"></div>
+    			</td>
+    			<td align="left">
+    				<span class="title1">危险等级：<font color=red>Ⅲ级</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>触电</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>变电所作业</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>高</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+						<span class="title3">1.严禁无证从事特种作业，规范穿戴防护用品</span><br/>
+						<span class="title3">2.定期检测维护特种防护用品及屏蔽设施，规范穿戴使用</span><br/>
+						<span class="title3">3.严格落实操作维护作业票制度，统一指挥，规范操作流程</span><br/>
+						<span class="title3">4.禁止无关人员进入高压配电室</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>设备检维修</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>高</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+						<span class="title3">1.严禁无证从事特种作业，规范穿戴防护用品</span><br/>
+						<span class="title3">2.严格按规程操作，临时接电专人负责、开关上锁</span><br/>
+						<span class="title3">3.停电检修设备时应悬挂警示标识，再确定安全的情况下才可送电</span><br/>
+						<span class="title3">4.禁止私接乱拉，线路不明，严禁擅动</span><br/>
+												
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>机械伤害</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>设备运行</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>中</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+						<span class="title3">1.进入作业现场，必须规范穿戴安全帽、工作鞋等防护用品，禁止无关人员进入</span><br/>
+						<span class="title3">2.严格落实安全操作规程，杜绝三违行为</span><br/>
+						<span class="title3">3.定期进行设备安全检查，禁止设备带故障运行</span><br/>
+						<span class="title3">4.落实检维修工作，保证设备安全有效</span><br/>
+						<span class="title3">5.禁止擅自进入危险部位，设置必要的安全警示或屏护</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>物体打击</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>现场作业</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>低</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+						<span class="title3">1.进入作业现场，必须规范穿戴安全帽、工作鞋等防护用品</span><br/>
+						<span class="title3">2.作业前进行现场安全检查，排除不安全因素，制定针对性措施</span><br/>
+						<span class="title3">3.作业现场物品摆放整齐规范，防止意外倒伏、坠落、飞溅、碰撞等</span><br/>
+						<span class="title3">4.隐患部位采取必要加固、捆扎、固定等措施，设置警示标志或屏护</span><br/>
+						<span class="title3">5.设置作业区域临时警戒设施，禁止无关人员进入作业区？</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!-- -------- -->
+    		<!-- ------------------------------------------ -->
+    		<tr>
+    			<td width="22" height="20" align="left">
+    				<div style="background:#0070c0;width:80%;height:17px;"></div>
+    			</td>
+    			<td align="left">
+    				<span class="title1">危险等级：<font color=red>Ⅳ级</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>灼烫</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>餐饮加工</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>高</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+						<span class="title3">1.实时关注加热食品或容器温度变化，禁止盲目操作</span><br/>
+						<span class="title3">2.保持与加热体安全有效距离，防止无意接触</span><br/>
+						<span class="title3">3.使用安全隔热材料、器皿或工具，有效阻绝加热体</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    		<!--  -->
+    		
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title1">危害因素：<font color=red>中毒窒息</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<span class="title2"><span class="redColor">●</span>&nbsp;&nbsp;隐患风险点：<font color=red>有限空间</font></span>
+    				&nbsp;&nbsp;
+    				<span class="title2">风险度：<font color=red>中</font></span>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleTitle" >
+    					<span class="title2">安全措施</span>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td>
+    				<div class="ruleContainer">
+						<span class="title3">1.严格落实作业票制度，制定针对性的组织方案和安全措施</span><br/>
+						<span class="title3">2.作业前必须保证45分钟以上通风，进行必要有害气体安全检测</span><br/>
+						<span class="title3">3.现场警示专人监护，进入人员必须规范穿戴特种防护用品，采取必要的防静电措施</span><br/>
+						<span class="title3">4.作业必须制定针对性安全措施，使用防爆设备，禁带火种</span><br/>
+						<span class="title3">5.发现险情，禁止盲目施救</span><br/>
+    				</div>
+    			</td>
+    		</tr>
+    		
+    	</table>
+    </div>
+    
+</body>
+</html>

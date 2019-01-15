@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC 
+"-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN" 
+"http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+
+
+<tiles-definitions>
+	<definition name="hr.baseTemplate" path="/attendance/templates/baseTemplate.jsp">
+		<put name="header_part" value="/attendance/templates/header.jsp" />
+		<put name="systemMenu" value="/attendance/templates/systemMenu.htm" />
+		<put name="leftMenu" value="/attendance/templates/leftMenu.htm" />
+		<put name="contentMain" value="/attendance/templates/contentMain.htm" />
+		<put name="bottom_part" value="/attendance/templates/bottom.jsp" />
+	</definition>
+	
+	<definition name="hr.baseNoLeft" path="/attendance/templates/baseTemplate-noLeft.jsp">
+		<put name="header_part" value="/attendance/templates/header.jsp" />
+		<put name="systemMenu" value="/attendance/templates/systemMenu.htm" />		
+		<put name="contentMain" value="/attendance/templates/contentMain.htm" />
+		<put name="bottom_part" value="/attendance/templates/bottom.jsp" />
+	</definition>	
+	
+</tiles-definitions>

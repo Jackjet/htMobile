@@ -1,0 +1,44 @@
+﻿<chart dateFormat='yyyy-mm-dd' hoverCapBorderColor='2222ff' hoverCapBgColor='e1f5ff' ganttWidthPercent='60' ganttLineAlpha='80' canvasBorderColor='024455' canvasBorderThickness='0' gridBorderColor='4567aa' gridBorderAlpha='20'><categories bgColor='ee0000'> 
+<category start='2009-02-01' end='2010-03-01' align='center' name='���̷�����' isBold='1' fontSize='16' /> 
+</categories>
+<categories bgColor='4567aa' fontColor='ff0000'> 
+<category start='2009-02-01' end='2010-03-01' align='center' name='����' alpha='' font='Verdana' fontColor='ffffff' isBold='1' fontSize='16' /> 
+</categories>
+<categories bgColor='ffffff' fontColor='1288dd' fontSize='10'> 
+<category start='2009-2-01' end='2009-02-28' align='center' name='2009��2��' isBold='1' />  
+<category start='2009-3-01' end='2009-03-31' align='center' name='2009��3��' isBold='1' />  
+<category start='2009-4-01' end='2009-04-30' align='center' name='2009��4��' isBold='1' />  
+<category start='2009-5-01' end='2009-05-31' align='center' name='2009��5��' isBold='1' />  
+<category start='2009-6-01' end='2009-06-30' align='center' name='2009��6��' isBold='1' />  
+<category start='2009-7-01' end='2009-07-31' align='center' name='2009��7��' isBold='1' />  
+<category start='2009-8-01' end='2009-08-31' align='center' name='2009��8��' isBold='1' />  
+<category start='2009-9-01' end='2009-09-30' align='center' name='2009��9��' isBold='1' />  
+<category start='2009-10-01' end='2009-10-31' align='center' name='2009��10��' isBold='1' />  
+<category start='2009-11-01' end='2009-11-30' align='center' name='2009��11��' isBold='1' />  
+<category start='2009-12-01' end='2009-12-31' align='center' name='2009��12��' isBold='1' />  
+<category start='2010-1-01' end='2010-01-31' align='center' name='2010��1��' isBold='1' />  
+<category start='2010-2-01' end='2010-02-28' align='center' name='2010��2��' isBold='1' />  
+</categories>
+<processes headerText='���' fontColor='ffffff' fontSize='10' isBold='1' isAnimated='0' bgColor='4567aa'  headerVAlign='right' headerbgColor='4567aa' headerFontColor='ffffff' headerFontSize='11' width='40' align='center'>
+<process Name='1' id='1' />
+<process Name='2' id='2' />
+</processes>
+<dataTable showProcessName='1' nameAlign='left' fontColor='000000' fontSize='10' isBold='1' headerBgColor='00ffff' headerFontColor='4567aa' headerFontSize='11' vAlign='right' align='left'> 
+<dataColumn width='110' headerfontcolor='ffffff' bgColor='eeeeee' headerbgColor='4567aa' fontColor='000000' headerText='�������' isBold='0'>
+<text label='���Է���1' />
+<text label='���Է���2' />
+</dataColumn>
+<dataColumn width='110' headerfontcolor='ffffff' bgColor='eeeeee' headerbgColor='4567aa' fontColor='000000' headerText='��ʼ����' isBold='0'>
+<text label='2009-03-01' />
+<text label='2009-02-01' />
+</dataColumn>
+<dataColumn width='110' headerfontcolor='ffffff' bgColor='eeeeee' headerbgColor='4567aa' fontColor='000000' headerText='��������' isBold='0'>
+<text label='2009-03-31' />
+<text label='2010-03-01' />
+</dataColumn>
+</dataTable>
+<tasks  width='10' >
+<task name='���Է���1' processId='1' start='2009-03-01' end='2009-03-31' Id='1' color='cccccc' height='10' topPadding='19'/>
+<task name='���Է���2' processId='2' start='2009-02-01' end='2010-03-01' Id='2' color='cccccc' height='10' topPadding='19'/>
+</tasks>
+</chart>

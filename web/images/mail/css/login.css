@@ -1,0 +1,26 @@
+td{
+	font-family: "ËÎÌו";
+	font-size: 12px;
+	text-decoration: none;
+}
+.bg{
+	background-attachment: fixed;
+	background-image: url(../images/login_bg.gif);
+	background-repeat: repeat;
+	background-position: left center;
+}
+.bga{
+	background-attachment: fixed;
+	background-image: url(../images/login_bga.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.bgb{
+	background-attachment: fixed;
+	background-image: url(../images/login_bgb.gif);
+	background-repeat: repeat;
+	background-position: center center;
+}
+.select{
+	width: 100px;
+}

@@ -1,0 +1,160 @@
+﻿td{font:9pt 宋体;color:#000000;}
+.td-e{font:9pt 宋体;color:#aaaaaa;}
+.spn14{font:14px verdana;color:#000000;}
+a{font:9pt 宋体;color:#000000;}
+img{border:0;}
+.div-admin{font:9pt 宋体;}
+.div-admin div{font:9pt 宋体;padding:2;}
+.butt{
+   background:buttonface;
+   border:1 solid;
+   border-color:buttonhighlight buttonshadow buttonshadow buttonhighlight;
+   color:#000000;
+   font:9pt;
+   padding-left:5;
+   padding-right:5;
+}
+.mainbody{
+   border:1 solid buttonshadow;
+   margin:0;
+   background:buttonface;
+   cursor:default;
+}
+.mainbody-f{
+   border:1 solid buttonshadow;
+   margin:0;
+   background:#ffffff;
+   cursor:default;
+}
+.cooltbl{
+   border:1 solid;
+   border-color:buttonhighlight buttonshadow buttonshadow buttonhighlight;
+   background:buttonface;
+   margin:0;
+
+}
+.cooltbl-b{
+   border:1 solid;
+   border-color:buttonhighlight buttonface buttonface buttonhighlight;
+   background:buttonface;
+   margin:0;
+
+}
+.cooltbltop{
+}
+
+.cooltbltop td{
+   border:1 solid;
+   border-color:buttonhighlight buttonshadow buttonshadow buttonhighlight;
+   background:buttonface;
+   margin:0;
+   text-align:center;
+}
+
+.cooltbltop1{
+}
+
+.cooltbltop1 td{
+   border:1 solid;
+   border-color:buttonface buttonshadow buttonshadow buttonhighlight;
+   background:buttonface;
+   margin:0;
+   text-align:center;
+}
+.coolbutton{
+   cursor:default;
+   text-align:center;
+   padding-left:4;
+   padding-right:4;
+   border:1 solid buttonface;
+}
+.coolbutton img{
+   filter:gray();
+}
+.coolbutton-up{
+   cursor:default;
+   text-align:center;
+   padding-left:4;
+   padding-right:4;
+   border:1 solid;
+   border-color:buttonhighlight buttonshadow buttonshadow buttonhighlight;
+   font:9pt verdana;
+}
+
+.liti{
+   border:1 solid;
+   border-color:buttonhighlight buttonshadow buttonshadow buttonhighlight;
+   background:buttonface;
+}
+.liti1{}
+.liti1 input{
+   border:1 solid buttonshadow;
+   font:9pt 宋体;
+   height:20px;
+   width:160px;
+   background:#ffffff;
+}
+.liti1 textarea{
+   border:1 solid buttonshadow;
+   font:9pt 宋体;
+   background:#ffffff;
+}
+.liti1 span{
+   font:9pt 宋体;
+   color:#ff0000;
+}
+.liti-inner{
+   border:1 solid;
+   border-color:buttonshadow buttonhighlight buttonhighlight buttonshadow;
+   background:buttonface;
+   border-left:0;
+   border-top:0;
+}
+.liti-inner1{border:1 solid;
+   border-color:buttonshadow buttonhighlight buttonhighlight buttonshadow;
+   background:url(/email/images/tileback.gif) buttonface;
+   border-top:0
+}
+
+.xing{
+   font:9pt 宋体;
+   color:#000000;
+}
+
+.vline{
+   border-left:1 solid buttonshadow;
+   border-right:1 solid buttonhighlight;
+   width:2;
+   height:90%
+}
+.ctn{
+   border-bottom:1 solid buttonshadow;
+   background:url(/email/images/tileback.gif) buttonface;
+   padding:0
+}
+.bg-f{
+   background:#fcca65;
+   height:100%;
+   padding:4;
+}
+.bg-6{
+   background:#6699cc;
+   height:100%;
+   padding:4;
+}
+.monbg-b{
+   background:url(/email/images/tileback.gif) buttonface;
+   vertical-align:top;
+   border-right:1 solid black;
+   border-bottom:1 solid black;
+   margin:0;
+   padding:0;
+   font:9pt 宋体;
+}
+.monbg-f{
+   background:#ffffff;
+   vertical-align:top;
+   border-right:1 solid black;
+   border-bottom:1 solid black;
+   font:9pt 宋体;
+}

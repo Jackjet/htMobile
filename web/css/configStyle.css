@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+.TableBlock {
+	BORDER-BOTTOM: #d4dde3 1px solid; 
+	BORDER-LEFT: #d4dde3 1px solid; 
+	PADDING-BOTTOM: 3px; 
+	LINE-HEIGHT: 20px; 
+	PADDING-LEFT: 3px; 
+	PADDING-RIGHT: 3px; 
+	BORDER-COLLAPSE: collapse; 
+	FONT-SIZE: 9pt; 
+	BORDER-TOP: #d4dde3 1px solid; 
+	BORDER-RIGHT: #d4dde3 1px solid; 
+	PADDING-TOP: 3px
+}
+.TableBlock TD {
+	PADDING-BOTTOM: 3px; 
+	PADDING-LEFT: 3px; 
+	PADDING-RIGHT: 3px; 
+	COLOR: #000000; 
+	PADDING-TOP: 3px
+}
+.TableBlock .TableHeader TD {
+	LINE-HEIGHT: 25px; 
+	BACKGROUND: #e9e9e9; 
+	COLOR: #124164; 
+	FONT-WEIGHT: bold; 
+	BORDER-RIGHT: #e2e3e6 1px solid
+}
+.TableBlock TD.TableHeader {
+	LINE-HEIGHT: 25px; 
+	BACKGROUND: #e9e9e9; 
+	COLOR: #124164; 
+	FONT-WEIGHT: bold;
+	BORDER-RIGHT: #e2e3e6 1px solid
+}
+.TableBlock .TableData TD {
+	BACKGROUND: #ffffff; 
+	BORDER-TOP: #e2e3e6 1px solid; 
+	BORDER-RIGHT: #e2e3e6 1px solid
+}
+.TableBlock TD.TableData {
+	BACKGROUND: #ffffff; 
+	BORDER-TOP: #e2e3e6 1px solid; 
+	BORDER-RIGHT: #e2e3e6 1px solid
+}
+.TableBlock .TableControl TD {
+	BACKGROUND: url(footer_bg.png) left bottom; 
+	BORDER-TOP: #e2e3e6 1px solid
+}
+.TableBlock TD.TableControl {
+	BACKGROUND: url(footer_bg.png) left bottom; 
+	BORDER-TOP: #e2e3e6 1px solid
+}
+.TableHeader {
+	LINE-HEIGHT: 25px; 
+	BACKGROUND: #fefefe; 
+	COLOR: #2e2e5a; 
+	FONT-SIZE: 9pt; 
+	FONT-WEIGHT: bold
+}
+.TableData {
+	BACKGROUND: #ffffff; 
+	COLOR: #000000
+}
+SELECT.SmallSelect {
+	BORDER-BOTTOM: 1px double; 
+	BORDER-LEFT: #c0bbb4 1px solid; 
+	LINE-HEIGHT: normal; 
+	FONT-VARIANT: normal; 
+	FONT-STYLE: normal; 
+	BACKGROUND: url(bg_input_text.png) white repeat-x left top; 
+	HEIGHT: 18px; 
+	COLOR: #000066; 
+	MARGIN-LEFT: 10px; 
+	FONT-SIZE: 9pt; 
+	BORDER-TOP: #c0bbb4 1px solid; 
+	FONT-WEIGHT: normal; 
+	BORDER-RIGHT: #c0bbb4 1px solid
+}
+SELECT.SmallSelect:hover {
+	BORDER-BOTTOM: 1px double; 
+	BORDER-LEFT: #c0bbb4 1px solid; 
+	LINE-HEIGHT: normal; 
+	FONT-VARIANT: normal; 
+	FONT-STYLE: normal; 
+	BACKGROUND: url(bg_input_text_hover.png) white repeat-x left top; 
+	HEIGHT: 18px; 
+	COLOR: #000066; 
+	MARGIN-LEFT: 10px; 
+	FONT-SIZE: 9pt; 
+	BORDER-TOP: #c0bbb4 1px solid; 
+	FONT-WEIGHT: normal; 
+	BORDER-RIGHT: #c0bbb4 1px solid
+}
+.BigButton {
+	BORDER-BOTTOM: #8d8d8d 1px solid; 
+	BORDER-LEFT: #8d8d8d 1px solid; 
+	BACKGROUND: url(btnbg.png) repeat-x; 
+	HEIGHT: 23px; 
+	FONT-SIZE: 12px; 
+	BORDER-TOP: #8d8d8d 1px solid; 
+	CURSOR: pointer; 
+	BORDER-RIGHT: #8d8d8d 1px solid
+}
+.BigButton:hover {
+	BACKGROUND-POSITION: 0px -23px
+}
+INPUT.SmallInput {
+	PADDING-BOTTOM: 1px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	FONT-SIZE: 9pt; 
+	PADDING-TOP: 1px
+}
+TEXTAREA.SmallInput {
+	PADDING-BOTTOM: 1px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	FONT-SIZE: 9pt; 
+	PADDING-TOP: 1px
+}

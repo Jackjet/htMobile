@@ -1,0 +1,484 @@
+﻿/** {
+	margin: 0px;
+	padding: 0px;
+	scrollbar-3dlight-color: #EFF4FF;
+	scrollbar-highlight-color: #C3D7FF;
+	scrollbar-face-color: #C3D7FF;
+	scrollbar-track-color: #EFF4FF;
+	scrollbar-shadow-color: C3D7FF;
+	scrollbar-darkshadow-color: #26488E;
+	scrollbar-arrow-color: #26488E;
+}*/
+
+body {
+	font-family: 微软雅黑,Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+body {
+	background-color: #d3d3d3;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearit {
+	clear: both;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+ul,ol {
+	list-style: none;
+}
+
+#wrap {
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.min {
+	min-height: 100px;
+}
+
+/*网站头部部分*/
+#header {
+	height: 92px;
+	width: 100%;
+	background-image: url(../images/ym.jpg);
+	background-repeat: no-repeat;
+	background-color: #217BB0;
+	overflow: hidden;
+}
+
+#header .logo {
+	float: left;
+	width: 430px;
+	height: 88px;
+	padding-left: 10px;
+}
+
+#header .you {
+	float: right;
+	width: 530px;
+	height: 92px;
+}
+
+#header .you .youshang {
+	height: 47px;
+	padding-left: 250px;
+}
+
+#header .you .youxia {
+	height: 45px;
+}
+
+#header .you .youxia .youxia1 {
+	height: 45px;
+	width: 247px;
+	float: left;
+}
+
+#header .you .youshang .youshang2 {
+	height: 47px;
+	width: 273px;
+	background-image: url(../images/ssk.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#header .you .youxia .youxia2 {
+	float: left;
+	height: 45px;
+	width: 28px;
+}
+
+#header .you .youxia .youxia2 img {
+	margin-top: 12px;
+	margin-left: 6px;
+}
+
+#header .you .youxia .youxia3 {
+	float: left;
+	height: 25px;
+	width: 72px;
+	padding-left: 90px;
+	padding-top: 20px;
+}
+
+#header .you .youxia .youxia3 li {
+	float: left;
+	width: 20px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #00588F;
+	text-align: center;
+}
+
+#header .you .youshang .youshang2 .youshangxw {
+	width: 84px;
+	float: right;
+	height: 47px;
+}
+
+#header .you .youshang .youshang2 .youshangxw .xqw {
+	background-image: url(../images/xqw.png);
+	background-repeat: no-repeat;
+	margin-top: 13px;
+	margin-left: 2px;
+	height: 26px;
+	color: #FFFFFF;
+	line-height: 26px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+#header .you .youshang .youshang2 .ssk2 {
+	float: right;
+	width: 26px;
+	height: 26px;
+	background-image: url(../images/ssky.png);
+	background-repeat: no-repeat;
+	margin-top: 13px;
+	margin-right: 5px;
+}
+
+#header .you .youshang .youshang2 .ssk5 {
+	width: 132px;
+	float: right;
+	height: 26px;
+	margin-top: 13px;
+}
+
+#header .you .youshang .youshang2 input {
+	width: 132px;
+	height: 26px;
+	float: right;
+	margin-top: 13px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	line-height: 26px;
+}
+
+#header .you .youshang .youshang2 .ssk6 {
+	width: 9px;
+	float: right;
+	height: 26px;
+	margin-top: 13px;
+	background-image: url(../images/sskz.png);
+	background-repeat: no-repeat;
+}
+
+#header .you .youxia .xdh {
+	width: 334px;
+	float: left;
+	height: 45px;
+}
+
+#header .you .youxia .xdh a {
+	color: #FFFFFF;
+}
+
+#header .you .youxia .xdh a:hover {
+	color: #333333;
+}
+
+#header .you .youxia .xdh .xdh1 {
+	float: left;
+	height: 28px;
+	width: 41px;
+	background-image: url(../images/xdh1.png);
+	color: #FFFFFF;
+	padding-left: 40px;
+	padding-top: 17px;
+	margin-left: 2px;
+	font-size: 14px;
+}
+
+#header .you .youxia .xdh .xdh2 {
+	float: left;
+	height: 28px;
+	width: 41px;
+	background-image: url(../images/xdh2.png);
+	color: #FFFFFF;
+	padding-left: 40px;
+	padding-top: 17px;
+	margin-left: 2px;
+	font-size: 14px;
+}
+
+#header .you .youxia .xdh .xdh3 {
+	float: left;
+	height: 28px;
+	width: 41px;
+	background-image: url(../images/xdh3.png);
+	color: #FFFFFF;
+	padding-left: 40px;
+	padding-top: 17px;
+	margin-left: 2px;
+	font-size: 14px;
+}
+
+#header .you .youxia .xdh .xdh4 {
+	float: left;
+	height: 28px;
+	width: 41px;
+	background-image: url(../images/xdh4.png);
+	color: #FFFFFF;
+	padding-left: 40px;
+	padding-top: 17px;
+	margin-left: 2px;
+	font-size: 14px;
+}
+
+/*view页面中间模块*/
+#right {
+	width: auto;
+	min-height: 620px;
+	height: auto !important;
+	background-color: #FFFFFF;
+}
+
+#right .emil {
+	background-repeat: repeat-x;
+	background-image: url(../images/emil_bg.jpg);
+}
+
+#right .module {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #85b0cb;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#right .email {
+	font-size: 14px;
+	list-style: 30px;
+	height: 30px;
+	width: auto;
+}
+
+#right .email span {
+	color: #FF0000;
+}
+
+.content {
+	margin: auto;
+	width: 100%;
+}
+
+.xinxi {
+	background-image: url(../images/a.jpg);
+	height: 30px;
+	padding-top: 20px;
+	padding-left: 30px;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+}
+
+.news {
+	margin: auto;
+	width: auto;
+}
+
+.news h2 {
+	text-align: center;
+	height: 44px;
+	line-height: 44px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #da4f4a;
+}
+
+.news_about {
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+.doc {
+	line-height: 28px;
+}
+
+.news_about p {
+	font-size: 12px;
+	color: #000;
+	line-height: 28px;
+	text-indent: 24px;
+}
+
+.down {
+	min-height: 20px;
+	padding-left: 45px;
+	padding-top: 20px;
+	background-image: url(images/gg.jpg);
+}
+
+.down ul li {
+	font-size: 12px;
+	color: #000;
+	height: 36px;
+}
+
+.down a {
+	font-size: 14px;
+	color: #333333;
+	text-decoration: underline;
+}
+
+.down a:hover {
+	color: #333333;
+}
+
+.small {
+	color: #999999;
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+#buttons {
+	padding: 10px;
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+}
+
+.button1 {
+	background-color: #7E7E7E;
+	background-image: url(../images/button01.jpg);
+	height: 33px;
+	width: 105px;
+	color: #FFFFFF;
+	font-size: 0px;
+}
+
+.button2 {
+	background-color: #7E7E7E;
+	background-image: url(../images/button02.jpg);
+	height: 33px;
+	width: 105px;
+	color: #FFFFFF;
+	font-size: 0px;
+}
+
+.blues {
+	color: black;
+}
+
+/*网站底部*/
+#footer {
+		height: 20px;
+	line-height: 20px;
+	background-color: #112F53;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #20609d;
+	text-align: center;
+	color: white;
+	clear: both;
+	z-index: 99999;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: visible;
+	font-size:15px;
+}
+
+/***************以下为从edit.css中移过来的*****************/
+.textfield {
+	border: 1px solid #CCCCCC;
+	color: #666666;
+	height: 24px;
+	line-height: 24px;
+}
+
+.button3 {
+	background-color: #7E7E7E;
+	background-image: url(../images/button3.gif);
+	height: 26px;
+	width: 95px;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.textarea {
+	border: 1px solid #CCCCCC;
+	color: #666666;
+}
+
+.newbutton {
+	
+}
+
+.newbutton .buttonleft {
+	float: left;
+	width: 20px;
+}
+
+.newbutton .buttonbg {
+	float: left;
+	height: 33px;
+	line-height: 33px;
+	color: #FFFFFF;
+	background-image: url(../images/buttonbg.jpg);
+}
+
+.newbutton .buttonbg a {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.newbutton .buttonbg a:hover {
+	color: #CCCCCC;
+}
+
+.newbutton .buttonright {
+	float: left;
+}
+
+.newbutton1 {
+	
+}
+
+.newbutton1 .buttonleft {
+	float: left;
+	width: 20px;
+}
+
+.newbutton1 .buttonbg {
+	float: left;
+	height: 33px;
+	line-height: 33px;
+	color: #FFFFFF;
+	background-image: url(../images/buttonbg1.jpg);
+}
+
+.newbutton1 .buttonbg a {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.newbutton1 .buttonbg a:hover {
+	color: #CCCCCC;
+}
+
+.newbutton1 .buttonright {
+	float: left;
+}

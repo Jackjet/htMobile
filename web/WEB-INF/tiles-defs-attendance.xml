@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC 
+"-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN" 
+"http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+
+
+<tiles-definitions>
+
+	<!-- attendance part start -->
+	<definition extends="hr.baseTemplate" name="vacationDay.list">
+		<put name="systemMenu" value="/attendance/configMenu.jsp" />    	
+    	<put name="leftMenu" value="/attendance/attendanceConfig.jsp" />    	
+    	<put name="contentMain" value="/attendance/vacationDayList.jsp" />    	
+  	</definition>  	
+  	
+  	<definition extends="vacationDay.list" name="vacationDay.edit">	    	
+    	<put name="contentMain" value="/attendance/vacationDayForm.jsp" />    	
+  	</definition>
+  		
+  	<definition extends="vacationDay.list" name="timekeeper.list">		   	
+    	<put name="contentMain" value="/attendance/timeKeeperList.jsp" />    	
+  	</definition>
+  		
+ 	<definition extends="timekeeper.list" name="timekeeper.edit">	    	
+    	<put name="contentMain" value="/attendance/timeKeeperForm.jsp" />    	
+  	</definition>
+  	
+  	<definition extends="timekeeper.list" name="vacationType.list">	    	
+    	<put name="contentMain" value="/attendance/vacationTypeList.jsp" />    	
+  	</definition>
+  	
+  	<definition extends="timekeeper.list" name="personDefine.list">	    	
+    	<put name="contentMain" value="/attendance/attendanceDefineList.jsp" />    	
+  	</definition>
+  	
+  		<definition extends="timekeeper.list" name="personDefine.edit">	    	
+    	<put name="contentMain" value="/attendance/attendanceDefinePersonForm.jsp" />    	
+  	</definition>
+  	
+  	<definition extends="hr.baseNoLeft" name="attendance.list">		
+  		<put name="systemMenu" value="/attendance/attendanceMenu.jsp" />       	 	
+    	<put name="contentMain" value="/attendance/personAttendanceList.jsp" />  	
+  	</definition>
+  	
+  	
+  	<definition extends="hr.baseTemplate" name="vacation.list">
+		<put name="systemMenu" value="/attendance/applyMenu.jsp" />    	
+    	<put name="leftMenu" value="/attendance/applyLeft.jsp" />    	
+    	<put name="contentMain" value="/attendance/personVacationList.jsp" />    	
+  	</definition>  	
+  	
+  	<definition extends="vacation.list" name="vacation.edit">		  	
+    	<put name="contentMain" value="/attendance/personVacationForm.jsp" />  	
+  	</definition>
+		
+	<definition extends="hr.baseTemplate" name="attendanceQuery.list">		  	
+    	<put name="systemMenu" value="/attendance/queryMenu.jsp" />    	
+    	<put name="leftMenu" value="/attendance/queryLeft.jsp" />   
+    	<put name="contentMain" value="/attendance/queryPersonAttendanceList.jsp" />  	    	 	
+  	</definition>
+  	
+  	<definition extends="attendanceQuery.list" name="attendanceMonthReport.list">
+    	<put name="contentMain" value="/attendance/queryAttendanceMonthReport.jsp" />  	    	 	
+  	</definition>
+		
+	<!-- attendance part end -->
+	
+</tiles-definitions>

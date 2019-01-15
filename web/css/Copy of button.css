@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+.btn_blue,.btn_red {
+	height: 33px;
+	width: auto;
+	padding: 10px 15px;
+	font-size: 15px;
+	line-height: 33px;
+	color: white;
+	font-weight: bold;
+	font-family: 微软雅黑;
+}
+
+.btn_blue:hover,.btn_red:hover {
+	color: #CCCCCC;
+}
+
+.btn_blue {
+	background: url('../images/buttonleft.jpg') no-repeat left,
+		url('../images/buttonright.jpg') no-repeat right,
+		url('../images/buttonbg.jpg') repeat-x center;
+}
+
+.btn_red {
+	background: url('../images/buttonleft1.jpg') no-repeat left,
+		url('../images/buttonright1.jpg') no-repeat right,
+		url('../images/buttonbg1.jpg') repeat-x center;
+}

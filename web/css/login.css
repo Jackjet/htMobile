@@ -1,0 +1,106 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	border:0px;
+}
+body{ background-color:#12497e; }
+img{ border:0px;}
+
+ul{
+	list-style:none;
+}
+
+a{
+	color:#256EB1;
+	text-decoration:none;
+}
+a:hover{
+	color:#ba2636;
+	text-decoration:underline;
+}
+
+input,select,button{
+	font:12px Verdana,Arial,Tahoma;
+	vertical-align:middle;
+}
+.clearit{ clear:both;}
+#bg{
+	background-image: url(../images/denglu.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+#main {
+	width: 100%;
+	height:auto;
+	
+}
+#main .login {
+	height: 200px;
+	padding-top:13px;
+	width: 412px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:148px;
+	background-image: url(../images/denglu_bg.gif);
+}
+#main .login h2{
+	color:#FFFFFF;
+	font-size:18px;
+	text-align:center;
+	font-family: "微软雅黑";
+}
+#main .login .logink{
+	width:340px;
+	margin:auto;
+	padding-top:10px;
+	height:160px;
+}
+#main .login .clogo{ width:84px; height:80px; float:left; padding-left:10px; }
+#main .login .loginr {
+	width:220px;
+	height:160px;
+	float:right;
+	overflow:hidden;
+	text-align:left;
+}
+#bg #main .login .logink .loginr #userName {
+	background-image: url(../images/yonghu.gif);
+	height: 32px;
+	width: 186px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #7E7E7E;
+	font-size: 14px;
+	color: #666666;
+	line-height: 32px;
+	padding-left:30px;
+}
+#bg #main .login .logink .loginr #password {
+	line-height: 32px;
+	color: #666666;
+	background-color: #7E7E7E;
+	background-image: url(../images/mima.gif);
+	height: 32px;
+	width: 186px;
+	font-size: 14px;
+	padding-left:30px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#bg #main .login .logink .loginr label {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+#bg #main .login .logink .loginr label {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+#bg #main .login .logink .loginr #button {
+	background-color: #7E7E7E;
+	background-image: url(../images/denglu_anniu.gif);
+	height: 29px;
+	width: 94px;
+	color: #FFFFFF;
+}

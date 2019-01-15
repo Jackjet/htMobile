@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<!DOCTYPE SYSDATA  SYSTEM "sysconfig.dtd">
+
+
+<SYSDATA>
+  <BASIC>
+    <LOGOPATH></LOGOPATH>
+    <SYSTEMNAME></SYSTEMNAME>
+    <PICPATH></PICPATH>
+    <CONTACTEXCEL></CONTACTEXCEL>
+    <BOOLVAR name="car message" value="yes"/>
+    <BOOLVAR name="meeting message" value="yes"/>
+    <BOOLVAR name="has weather" value="yes"/>
+    <INTVAR name="open menu id" value="1"/></BASIC>
+
+  <INTVAR name="open menu id"/>
+  <BOOLVAR name="car message"/>
+  <BOOLVAR name="meeting message"/>
+  <BOOLVAR name="has weather"/></SYSDATA>

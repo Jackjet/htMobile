@@ -1,0 +1,45 @@
+.sub_menu {
+	BACKGROUND: url(../../images/menu2/tab/Menu_bg.jpg) repeat-x; HEIGHT: 39px
+}
+.sub_menu_td {
+	font-size: 12px;BORDER-RIGHT: #0f426b 0px solid; VERTICAL-ALIGN: middle; WIDTH: 100px; CURSOR: pointer; COLOR: #0f426b; PADDING-TOP: 4px; POSITION: relative; TOP: 2px; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.sub_menu_td_hover {
+	font-size: 12px;FONT-WEIGHT: bold; BACKGROUND: url(../../images/menu2/tab/sub_menu_hover_bg.gif) no-repeat; VERTICAL-ALIGN: middle; WIDTH: 96px; CURSOR: pointer; COLOR: #ff6600; PADDING-TOP: 4px; POSITION: relative; TOP: 2px; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.sub_menu_td_on_tab {
+	font-size: 12px;FONT-WEIGHT: bold; BACKGROUND: url(../../images/menu2/tab/sub_menu_bg.gif) no-repeat; VERTICAL-ALIGN: middle; WIDTH: 96px; CURSOR: pointer; COLOR: #ff6600; PADDING-TOP: 4px; POSITION: relative; TOP: 2px; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.root_menu {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; CURSOR: pointer; COLOR: #0f426b
+}
+.root_menu_hover {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; CURSOR: pointer; COLOR: #ff6600
+}
+.root_menu_on_tab {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; CURSOR: pointer; COLOR: #ff6600
+}
+.greeting {
+	RIGHT: 20px; COLOR: #ffffff; POSITION: absolute; TOP: 0px
+}
+.greeting_link {
+	COLOR: #ffffff
+}
+
+.wrapper_in {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.top_in {
+	background-image: url(../../images/menu2/in_top_bg.jpg);
+	background-repeat: repeat-x;
+	height: 60px;
+}
+.left_5 {
+	margin-left: 5px;
+	float: left;
+}
+.right {
+	float: right;
+}

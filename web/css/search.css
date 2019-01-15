@@ -1,0 +1,242 @@
+/* CSS Document */
+
+BODY {
+	font-family: verdana,宋体;
+	font-size:12px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	background: url(/images/search/bg.gif) repeat;
+	background-color:#ABAAA8;
+}
+
+A:link  {
+	text-decoration:underline
+}
+
+/*
+A:visited,A:hover{
+	text-decoration:none;
+}
+*/
+
+DIV{
+	margin:0;
+	padding:0;
+}
+
+H1{
+	font-size:18px;
+	color:#21582B;
+	text-align:center;
+	font-weight:normal;
+}
+
+
+#TopAD{
+	width:975px;
+	height:90px;
+	margin:0 auto;
+	margin-top:8px;
+	margin-bottom:3px;	
+}
+
+#TopAD IMG {
+	border:none;
+}
+
+
+#Foot{
+	margin:0 auto;
+	width:975px;
+	min-height:164px;
+	height:84px;
+	background-color:#FDD;
+	text-align:center;	
+}
+
+#FootBox{
+	margin:0 auto;
+	width:944px;
+}	
+
+
+#Content{
+	margin:0 auto;
+	width:975px;
+	background-color:#FFF;
+	text-align:center;	
+}
+
+
+#CBox{
+	margin:0 auto;
+	width:940px;
+	border:0px solid red;
+	
+}
+////background: url(/images/search/vdot3.gif) repeat-y 673px 15px;	
+
+
+.Pages{
+	clear:both;
+	float:left;
+	text-align:left;
+	width:100%;
+	margin-top:25px;
+	height:21px;
+	font-size:12px;
+	color:#9FA3A6;
+	font-family:verdana;
+}
+.Pages SPAN{
+	color:#151718;
+	font-weight:bold;
+}
+
+/*
+.Pages A{
+	color:#236891;	
+}
+.Pages A:hover{
+	color:#FF6C00;	
+}
+*/
+
+
+#RightAD{
+	width:300px;
+	float:right;
+}
+
+#SearchResultBox{
+	width:100%;
+	border:0px solid red;
+}
+
+
+#SearchTitle{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	color:#878787;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	background: url(/images/search/FindTitle.gif) repeat-x 0px 0px;
+	margin-top:30px;
+}
+#SearchBox{
+	width:100%;
+	height:144px;
+	background-color:#F3F3F3;
+	text-align:left;
+}
+
+#SearchBox TD{
+	font-size:14px;
+	color:#135C88;
+}
+
+.SearchInput{
+	width:232px;
+}
+
+/*
+#SearchBox A{
+	display:block;
+	height:29px;
+	width:79px;
+	background:url(/images/search/SearchBtn_out.gif) no-repeat;
+}
+#SearchBox A:hover{
+	background:url(/images/search/SearchBtn_over.gif) no-repeat;
+}
+*/
+
+
+
+#SearchOprBtn A{
+	display:block;
+	float:right;
+	width:69px;
+	height:25px;
+	background: url(/images/search/search_btn.png) no-repeat 0px 0px;
+	}
+#SearchInput .searchText{
+	width:500px;
+	padding-left:7px;
+	padding-top:5px;
+	height:25px;
+	float:left;
+	background: url(/images/search/input_shadow.png) no-repeat 0px 0px;
+	border:1px solid  #C1C1C1;
+	
+	font-size:14px;	
+	}
+	
+
+#SearchComment{
+	display:inline-block;
+	clear:both;
+	width:100%;
+	height:20px;
+	margin:20px 0px;
+	background: url(/images/search/vdot1.gif) repeat-x 0px 100%;
+	color:#333;
+	font-size:12px;
+	text-align:left;
+}
+#SearchComment SPAN{
+	color:#ff6600;
+	}
+.SearchList{
+	width:100%;
+	margin-bottom:30px;
+	text-align:left;
+	}
+.SearchListTitle{
+	margin-bottom:5px;
+	}
+.SearchListTitle A{
+	color:#025180;
+	font-size:14px;
+	font-weight:bold;
+	}
+/*
+.SearchListTitle A:hover{
+	color:#ff6600;
+}*/
+
+.SearchListContent{
+	color:#666;
+	font-size:14px;
+	line-height:150%;
+	}
+	
+	
+#search_bar  {
+	width:942px;
+	height:72px; 
+	position:absolute;
+	left:17px;
+	top:85px;
+ }
+	
+em {
+  	color:#d14836;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none
+}
+
+
+a em {
+	text-decoration:underline
+}
+
+dt {
+	font-weight:bold;
+	color:blue;
+	text-decoration:none
+}
